@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#misc
+/afrexco-image-pack
+greencare-design-guide.html
+implementation_plan.md
+original-38179334127409b94c17118f880d9889.webp
