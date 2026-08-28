@@ -9,21 +9,13 @@ export default function Hero({ formData, handleInputChange, handleHeroSubmit }) 
 
   return (
     <section className="relative min-h-[100vh] flex items-end pb-20 md:pb-24 overflow-hidden bg-forest-deep text-white">
-      {/* Background Video */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="/afrexco-images/09-whyus-villa-pool.jpg"
+          alt=""
           className="w-full h-full object-cover opacity-50"
-          poster="/afrexco-images/09-whyus-villa-pool.jpg"
-        >
-          <source
-            src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c022f733f3d36d86bc9e1a8ef06240f3&profile_id=139&oauth2_token_id=57447761"
-            type="video/mp4"
-          />
-        </video>
+        />
         {/* Multi-stop scrim — darker at top for nav readability, darker at bottom for text */}
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(12,42,27,0.85)_0%,rgba(12,42,27,0.4)_35%,rgba(12,42,27,0.55)_65%,rgba(12,42,27,0.92)_100%)]" />
       </div>
